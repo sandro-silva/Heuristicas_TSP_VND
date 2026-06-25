@@ -8,9 +8,9 @@ from src.vizinhancas import swap, or_opt_k
 def vnd(initial_tour: list[int], dist: list[list[float]]) -> tuple[list[int], float]:
     """
     VND com três vizinhanças sequenciais:
-      k=1 → 2-opt
-      k=2 → Or-opt-1
-      k=3 → Or-opt-2
+      N=1 → Swap
+      N=2 → Or-opt-1
+      N=3 → Or-opt-2
     Reinicia na primeira vizinhança a cada melhoria.
     """
     neighborhoods = [

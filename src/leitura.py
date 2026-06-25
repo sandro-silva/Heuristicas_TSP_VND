@@ -8,7 +8,7 @@ Meta-heurística: Variable Neighborhood Descent (VND)
 Estrutura:
   - Heurística de construção: Nearest Neighbor (Vizinho Mais Próximo)
   - Movimentos de vizinhança:
-      N1: 2-opt  (troca de duas arestas)
+      N1: Swap  (troca de vértices)
       N2: Or-opt-1 (realoca um único nó)
       N3: Or-opt-2 (realoca um segmento de 2 nós)
   - VND: percorre as vizinhanças em ordem sequencial
